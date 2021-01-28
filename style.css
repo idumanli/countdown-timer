@@ -98,7 +98,7 @@ body {
 	color: rgba(255, 0, 0, 0.6);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 701px) {
 	.container h2 {
 		font-size: 1rem;
 	}
@@ -131,4 +131,31 @@ body {
     .container h2 {
     	font-size: 1.5rem;
     }
+}
+
+@media only screen and (max-width: 700px) {
+	.container h2 {
+    	font-size: 0.4rem;
+    }
+    .countdown div {
+		width: 35px;
+		height: 65px;
+	}
+	.countdown div#days:before {
+	content: 'Days';
+	font-size: 0.5rem;
+}
+.countdown div#hours:before {
+	content: 'Hours';
+	font-size: 0.5rem;
+	
+}
+.countdown div#minutes:before {
+	content: 'Minutes';
+	font-size: 0.4rem;
+}
+.countdown div#seconds:before {
+	content: 'Seconds';
+	font-size: 0.4rem;
+}
 }
