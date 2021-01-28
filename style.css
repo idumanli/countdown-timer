@@ -158,4 +158,9 @@ body {
 	content: 'Seconds';
 	font-size: 0.4rem;
 }
+.container {
+   width: 100%;
+   height: auto;
+}
+
 }
